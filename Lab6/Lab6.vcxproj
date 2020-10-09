@@ -139,18 +139,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="ArrayList.h" />
     <ClInclude Include="IIterable.h" />
     <ClInclude Include="IIterador.h" />
     <ClInclude Include="IList.h" />
     <ClInclude Include="IReadOnlyCollection.h" />
-    <ClInclude Include="IteradorLinkedList.h" />
-    <ClInclude Include="LinkedList.h" />
-    <ClInclude Include="Nodo.h" />
+    <ClInclude Include="IteradorArrayList.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="IteradorLinkedList.cpp" />
-    <ClCompile Include="LinkedList.cpp" />
-    <ClCompile Include="Nodo.cpp" />
+    <ClCompile Include="ArrayList.cpp" />
+    <ClCompile Include="IteradorArrayList.cpp" />
     <ClCompile Include="Principal.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
