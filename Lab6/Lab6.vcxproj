@@ -146,7 +146,6 @@
     <ClInclude Include="IteradorLinkedList.h" />
     <ClInclude Include="LinkedList.h" />
     <ClInclude Include="Nodo.h" />
-    <ClInclude Include="TestsLista.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="IteradorLinkedList.cpp" />
