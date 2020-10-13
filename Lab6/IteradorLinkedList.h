@@ -1,16 +1,15 @@
 #pragma once
-
 #include"IIterador.h"
+#include"Nodo.h"
+
 template<class T>
-class IteradorArrayList : public IIterador<T>
+class IteradorLinkedList : public IIterador<T>
 {
 private:
-	T punteroActual;
-	int cantidad;
-	int posicionActual;
+	Nodo<T>* punteroActual;
 
 public:
-	IteradorArrayList(T arreglo, int cantidad);
+	IteradorLinkedList(Nodo<T>* inicial);
 	virtual bool haySiguiente() override;
 	virtual IIterador<T>* actual() override;
 };

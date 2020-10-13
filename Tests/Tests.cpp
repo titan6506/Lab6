@@ -1,20 +1,16 @@
 #include "pch.h"
 #include "CppUnitTest.h"
-#include"../Lab6/ArrayList.h"
-#include"../Lab6/IList.h"
 
 using namespace Microsoft::VisualStudio::CppUnitTestFramework;
 
 namespace Tests
 {
-	
-	TEST_CLASS(TestsArrayList)
+	TEST_CLASS(Tests)
 	{
 	public:
-	
-		TEST_METHOD(AgregarElementoALArray)
+		
+		TEST_METHOD(TestMethod1)
 		{
-			//ArrayList<int>* v1 = new ArrayList<int>;
 		}
 	};
 }
