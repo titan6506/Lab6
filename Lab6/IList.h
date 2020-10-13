@@ -10,8 +10,8 @@ template<class T>
 class IList : public IReadOnlyCollection<T>
 {
 public:
-	virtual void insertarAlFinal(T elemento) = 0; 
-	virtual void insertarEnPosicion(T elemento, int posicion) = 0; 
+	virtual void insertarAlFinal(T elemento) = 0; //revisar
+	virtual void insertarEnPosicion(T elemento, int posicion) = 0; // revisar
 	virtual void borrarEnPosicion(int posicion, bool liberarMemoria = false) = 0;
 	virtual void liberarDatosInternos() = 0;
 	virtual ~IList() = default;
